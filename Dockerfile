@@ -1,5 +1,5 @@
 # Set the base image as the latest node alpine version
-FROM node:lts-alpine
+FROM node:24.13.0-alpine3.23
 
 # Copy the work directory so we can use it
 COPY . /open-pixel-art
